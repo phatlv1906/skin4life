@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>loginServlet</servlet-name>
+  	<display-name>loginServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<display-name>logoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.logoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>signupServlet</servlet-name>
+  	<display-name>signupServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.signupServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>showDoctor</servlet-name>
+  	<display-name>showDoctor</display-name>
+  	<description></description>
+  	<servlet-class>controller.showDoctor</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>toorderServlet</servlet-name>
+  	<display-name>toorderServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.toorderServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>loginServlet</servlet-name>
+  	<url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>logoutServlet</servlet-name>
+  	<url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>signupServlet</servlet-name>
+  	<url-pattern>/signupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>showDoctor</servlet-name>
+  	<url-pattern>/showDoctor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>toorderServlet</servlet-name>
+  	<url-pattern>/toorderServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
